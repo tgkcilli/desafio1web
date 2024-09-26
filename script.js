@@ -8,6 +8,12 @@ function cadastrar() {
     const vaga = document.getElementById("vaga").value;
 
 
-    console.log("Proprietário: " + proprietario + "\nApartamento: " + apartamento);
+    console.log("Proprietário: " + proprietario  )
+    console.log("Bloco: " + bloco);
+    console.log("Apartamento: " + apartamento);
+    console.log("Modelo: " + modelo);
+    console.log("Placa: " + placa);
+    console.log("Cor do carro: " + cor);
+    console.log("Vaga: "+ vaga);
 
 }
