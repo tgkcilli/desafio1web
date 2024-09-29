@@ -1,4 +1,6 @@
-function cadastrar() {
+function cadastrar(event) {
+    event.preventDefault();
+
     const placa = document.getElementById("placa").value;
     const proprietario = document.getElementById("proprietario").value;
     const apartamento = document.getElementById("apartamento").value;
@@ -8,7 +10,7 @@ function cadastrar() {
     const vaga = document.getElementById("vaga").value;
 
 
-    console.log("Proprietário: " + proprietario  )
+    console.log("Proprietário: " + proprietario  );
     console.log("Bloco: " + bloco);
     console.log("Apartamento: " + apartamento);
     console.log("Modelo: " + modelo);
