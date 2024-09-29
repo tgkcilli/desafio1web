@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #88caf6;
+}
+
+#container {
+    max-width: 800px;
+    margin: 200 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo dos formulários */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"], button[type="button"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+    background-color: #218838;
+}
+
+/* Ocultar e mostrar telas */
+.tela {
+    display: none;
+}
+
+.tela.ativa {
+    display: block;
+}
+
+/* Lista de vagas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

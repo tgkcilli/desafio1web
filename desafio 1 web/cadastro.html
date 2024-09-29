@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vagas - Controle de Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Controle de Estacionamento</h1>
+            <nav>
+                <button onclick="mostrarLista()">Lista de Vagas</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="cadastro">
+                <h2>Cadastro de Vagas</h2>
+                <form id="form-cadastro">
+                    <label for="placa">Placa do Veículo:</label>
+                    <input type="text" id="placa" placeholder="Placa" required />
+
+                    <label for="proprietario">Nome do Proprietário:</label>
+                    <input type="text" id="proprietario" placeholder="Proprietário" required />
+                    
+                    <label for="apartamento">Número do Apartamento:</label>
+                    <input type="text" id="apartamento" placeholder="Apartamento" required />
+                    
+                    <label for="bloco">Bloco do Apartamento:</label>
+                    <input type="text" id="bloco" placeholder="Bloco" required />
+                    
+                    <label for="modelo">Modelo do Veículo:</label>
+                    <input type="text" id="modelo" placeholder="Modelo" required />
+                    
+                    <label for="cor">Cor do Veículo:</label>
+                    <input type="text" id="cor" placeholder="Cor" required />
+                    
+                    <label for="vaga">Número da Vaga:</label>
+                    <input type="number" id="vaga" placeholder="Vaga" required />
+                    
+                    <button type="submit">Cadastrar</button>
+                    <button type="button" onclick="limparFormulario()">Cancelar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
